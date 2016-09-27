@@ -8,7 +8,7 @@
     •using instant chat to require destination’s weather conditions
     •calculating footsteps using sensor of mobiles 
 
-**Weather-Life Web Server** utilizes Firebase
+**Weather-Life Web Server** utilizes Google Firebase
 
 # Screenshots of Mobile Application
 #### • `map intial screen`
