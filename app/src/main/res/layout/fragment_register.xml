@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liangchenzhou.weatherlife.RegisterFrag">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0px">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"
+            android:id="@+id/linearLayout3">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/emailRegNow"
+                android:layout_weight="1"
+                android:layout_marginLeft="80px"
+                android:layout_marginRight="80px"
+                android:hint="Email Address"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout5">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pwdRegNow"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:layout_marginLeft="80px"
+                android:layout_marginRight="80px"
+                android:hint="Passwords"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirmRegNow"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:layout_marginLeft="80px"
+                android:layout_marginRight="80px"
+                android:hint="Confirm Passowrds"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:background="@drawable/button_border"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Register"
+            android:id="@+id/buttonSubmitReg"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:background="@drawable/button_regback_main"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:id="@+id/regBackMain"
+            android:layout_below="@+id/buttonSubmitReg"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="63dp"
+    android:gravity="right|fill_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="gravity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|right"
+        android:orientation="horizontal"
+        android:textAlignment="gravity">
+
+        <TextView
+            android:id="@+id/sContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:background="@drawable/chat_item_sender"
+            android:gravity="center_vertical|center_horizontal|right"
+            android:minHeight="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="sContent"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:textAlignment="gravity">
+
+        <TextView
+            android:id="@+id/senderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sContent"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="0.02"
+            android:gravity="center_vertical|right"
+            android:paddingRight="10dp"
+            android:text="sender"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:textAlignment="gravity">
+
+        <TextView
+            android:id="@+id/smallTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/senderName"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="0.02"
+            android:gravity="center_vertical|right"
+            android:paddingRight="10dp"
+            android:text="sender"
+            android:textAlignment="gravity"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>

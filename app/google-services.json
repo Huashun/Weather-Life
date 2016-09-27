@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "117172648670",
+    "firebase_url": "https://airy-task-129314.firebaseio.com",
+    "project_id": "airy-task-129314",
+    "storage_bucket": "airy-task-129314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117172648670:android:50d173e6f1901d4f",
+        "android_client_info": {
+          "package_name": "com.example.liangchenzhou.weatherlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117172648670-5b2uqg2fdqdtgd9ejkp0t2dk13abkoqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLmEGl82Te_Nf9Q1LL-ZmCY5H5bGkT-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117172648670:android:4fd457e5a98230e8",
+        "android_client_info": {
+          "package_name": "com.example.liangchenzhou.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117172648670-5b2uqg2fdqdtgd9ejkp0t2dk13abkoqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLmEGl82Te_Nf9Q1LL-ZmCY5H5bGkT-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

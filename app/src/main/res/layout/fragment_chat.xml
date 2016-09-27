@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liangchenzhou.weatherlife.ChatFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:layout_gravity="center_horizontal|top"
+        android:weightSum="1"
+        android:background="#5aa9e5">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:id="@+id/listViewChat"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendText"
+        android:layout_gravity="center_horizontal|bottom|left" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/buttonSend"
+        android:layout_gravity="right|bottom" />
+</FrameLayout>

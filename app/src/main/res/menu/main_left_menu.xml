@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_signin"
+            android:title="Sign in" />
+        <item
+            android:id="@+id/nav_location"
+            android:title="Street View" />
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat &amp; Ask" />
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_travel"
+                android:title="Travel Helper" />
+            <item
+                android:id="@+id/nav_cloth"
+                android:title="Cloth Helper" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WeatherLife</string>
+    <string name="title_activity_maps">Map</string>
+    <!--<string name="google_app_id">com.example.liangchenzhou.weatherlife</string>-->
+    <!--<string name="google_app_id">1:117172648670:android:50d173e6f1901d4f</string>-->
+    <string name="mapTitle">Map</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="Register"><u>Register Now</u></string>
+
+    <string-array name="nav_drawer_items">
+        <item>Profile</item>
+        <item>Home</item>
+        <item>Login</item>
+        <item>Find Activity</item>
+        <item>Street View</item>
+        <item>Weather Forecast</item>
+        <item>Recommendation</item>
+        <item>Cloth Helper</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item></item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
