@@ -13,7 +13,7 @@
 # Screenshots of Mobile Application
 #### • `App intial screen`
 <img src="./app/src/main/res/raw/screenshots/1_0_0initial screen.png" width="270" height="445"/>
-#### • `Weather forecast and trend graph screen`
+#### • `Weather forecast, activity pushing (based on current weather) and trend graph screen`
 <img src="./app/src/main/res/raw/screenshots/1_0_1.gif" width="270" height="445"/>
 #### • `App location permission`
 <img src="./app/src/main/res/raw/screenshots/1_1location permission.png" width="270" height="445"/>
@@ -31,13 +31,13 @@
 <img src="./app/src/main/res/raw/screenshots/6_2 street view been shown in chat.png" width="270" height="445"/>
 #### • `Travel and nearby activity helper`
 <img src="./app/src/main/res/raw/screenshots/7travel and nearby activity helper.png" width="270" height="445"/>
-#### • `Cloth helper`
+#### • `Cloth helper (based on current temperature)`
 <img src="./app/src/main/res/raw/screenshots/8cloth helper.png" width="270" height="445"/>
 #### • `Login`
 <img src="./app/src/main/res/raw/screenshots/9login.png" width="270" height="445"/>
 #### • `Register`
 <img src="./app/src/main/res/raw/screenshots/10register.png" width="270" height="445"/>
-#### • `User profile`
+#### • `User profile (automaticly record user footsteps and streetview contributions)`
 <img src="./app/src/main/res/raw/screenshots/11user profile.png" width="270" height="445"/>
 #### • `Setting`
 <img src="./app/src/main/res/raw/screenshots/12setting.png" width="270" height="445"/>
