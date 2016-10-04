@@ -37,7 +37,7 @@
 <img src="./app/src/main/res/raw/screenshots/9login.png" width="270" height="445"/>
 #### • `Register`
 <img src="./app/src/main/res/raw/screenshots/10register.png" width="270" height="445"/>
-#### • `User profile (automaticly record user footsteps and streetview contributions)`
+#### • `User profile & Location Preferences (automaticly record user footsteps and streetview contributions)`
 <img src="./app/src/main/res/raw/screenshots/11user profile.png" width="270" height="445"/>
 #### • `Setting`
 <img src="./app/src/main/res/raw/screenshots/12setting.png" width="270" height="445"/>
