@@ -1,10 +1,12 @@
 # Weather-Life Demonstration
 **Weather-Life Mobile Application** develop functions such as
+
     •regular weather pushing and notifications
     •sharing real-time photos with other users to advise weather conditions in different locations
     •finding nearby activities according to current weather conditions
     
 **Features**  
+
     •using instant chat to require destination’s weather conditions
     •calculating footsteps using sensor of mobiles 
 
