@@ -64,7 +64,7 @@ I used [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) library by Ph
 UI images are from [google Image](https://images.google.com/) and icons are from [Material icons](https://design.google.com/icons/)
 
 # License
-   Copyright {2016} {Liangchen Zhou}
+   Copyright {2016} {Huashun Li}
    
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
